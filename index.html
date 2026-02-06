@@ -1,96 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bible Study Quiz Game</title>
+    <title>Bible Quiz Game</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sono:wght@200..800&display=swap"
-      rel="stylesheet"
-    />
   </head>
-<body>
-  
+  <body>
+    <!-- HOME SCREEN -->
+    <section class="home active">
+      <div class="home-content">
+        <h1>Bible Quiz</h1>
+        <p>Test your knowledge of the Bible in a fun way!</p>
+        <button class="start-btn">Start Quiz</button>
+      </div>
+    </section>
 
-  <main class="main">
-    <header class="header">
-      <a href="#" class="logo">Bible Quiz</a>
-      <nav class="navbar">
-        <a href="#" class="active">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-      </nav>
-    </header>
-    <div class="container">
-      <section class="quiz-section">
-        <div class="quiz-box">
-          <h1>Bible Quiz</h1>
-          <div class="quiz-header"></div>
-          <span>Bible Quiz Website Tutorials</span>
-          <span class="header-score"> Score: 0 / 10 </span>
-        </div> 
-
-        <h2 class="question-text">What was the first miracle performed by Jesus according to the Gospel of John?</h2>
+    <!-- QUIZ SCREEN -->
+    <section class="quiz-section">
+      <div class="quiz-box">
+        <h2 class="question-text">Question will appear here</h2>
         <div class="options-list">
-          <div class="options">
-            <span>A. Turned water into wine</span>
-          </div>
-          <div class="options">
-            <span>B. Fed the 5,000</span>
-          </div>
-          <div class="options">
-            <span>C. Walked on water</span>
-          </div>
-          <div class="options">
-            <span>D. healed the blind man</span>
-          </div>
+          <div class="option"><span>A. Option 1</span></div>
+          <div class="option"><span>B. Option 2</span></div>
+          <div class="option"><span>C. Option 3</span></div>
+          <div class="option"><span>D. Option 4</span></div>
         </div>
-        
-     <div class="quiz-footer">
-      <span class="question-total"> 1 of 10 questions</span>
-      <button class="next-btn">Next </button>
-     </div>
-    </div> 
-  </section> 
-    
-
-      <section class="home">
-        <div class="home-content">
-          <h1>Bible Quiz Website</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-            perspiciatis libero aliquam iste dignissimos itaque ipsam nihil.
-            Itaque impedit possimus deleniti, laborum iste, eius perferendis
-            reprehenderit veniam exercitationem expedita suscipit!
-          </p>
-          <button class="start-btn">Start Quiz</button>
+        <div class="quiz-footer">
+          <span class="question-count">Question 1 of 5</span>
+          <span class="score">Score: 0</span>
+          <button class="next-btn">Next</button>
         </div>
-      </section>
-    </div>
-  </main>
-  <div class="popup-info">
-    <h2>Quiz Guide</h2>
-    <span class="info">1. Lorem ipsum veritatis?</span>
-    <span class="info">2. Lorem ipsum dolor si veritatis?</span>
-    <span class="info"
-      >3. Lorem ipsum dolor s animi atque ipsum ad iusto enim veritatis?</span
-    >
-    <span class="info">4. Lorem ipsum dolor sit amet, consectetur</span>
-    <span class="info"
-      >5. Lorem ipsum dolor sit amet, consectetur animi atque ipsum a?</span
-    >
+      </div>
+    </section>
 
-    <div class="btn-group">
-      <button class="info-btn exit-btn">Exit Quiz</button>
-      <a href="#" class="info-btn continue-btn">Continue</a>
-    </div>
-  </div>
-
-  <script src="questions.js"></script>
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
