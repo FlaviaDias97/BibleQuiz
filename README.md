@@ -48,6 +48,14 @@ It simulates real-world front-end behaviour without frameworks, reinforcing stro
 	2.	Open the folder
 	3.	Open index.html in your browser
 
+🔮 Future Improvements
+	•	Timer-based quiz mode
+	•	Difficulty levels
+	•	Category selection (Gospels, Paul’s Letters, Revelation, etc.)
+	•	Persistent high scores using localStorage
+	•	Animations and transitions between questions
+	•	Backend integration for storing scores
+
 Contact
 Feel free to connect with me via:
 * LinkedIn: Flávia Dias / www.linkedin.com/in/flávia-dias-02851516a
